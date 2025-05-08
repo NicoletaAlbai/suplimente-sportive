@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Contact</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <header>
+    <nav id="navbar">
+      <ul>
+        <li><a href="index.html">Acasă</a></li>
+        <li><a href="produse.html">Produse</a></li>
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h1>Contactează-ne</h1>
+    <form id="contactForm">
+      <label for="nume">Nume:</label>
+      <input type="text" id="nume" required><br>
+      <label for="email">Email:</label>
+      <input type="email" id="email" required><br>
+      <label for="telefon">Telefon:</label>
+      <input type="tel" id="telefon" pattern="\d{10}" required><br>
+      <label for="mesaj">Mesaj:</label>
+      <textarea id="mesaj" required></textarea><br>
+      <button type="submit">Trimite</button>
+    </form>
+    <p>Ne poți găsi și pe rețelele sociale:</p>
+    <div class="social">
+      <a href="#">Facebook</a> | <a href="#">Instagram</a>
+    </div>
+  </main>
+</body>
+</html>

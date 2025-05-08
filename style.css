@@ -1,0 +1,51 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background: url('../img/sport_bg.jpg') no-repeat center center fixed;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+#navbar {
+  position: fixed;
+  width: 100%;
+  background-color: rgba(0,0,0,0.7);
+  top: 0;
+  z-index: 999;
+}
+#navbar ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  padding: 10px;
+}
+#navbar a {
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+}
+#navbar a.active, #navbar a:hover {
+  background-color: #555;
+}
+main {
+  padding: 80px 20px;
+  background-color: rgba(0,0,0,0.5);
+}
+.carousel-container img {
+  width: 150px;
+  margin: 5px;
+}
+table, th, td {
+  border: 1px solid #fff;
+  border-collapse: collapse;
+  padding: 8px;
+  color: white;
+}
+#scrollUpBtn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  display: none;
+}
